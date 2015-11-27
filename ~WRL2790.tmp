@@ -15,17 +15,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Niall Stack</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Niall Stack</o:LastAuthor>
-  <o:Revision>9</o:Revision>
-  <o:TotalTime>24</o:TotalTime>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>13</o:TotalTime>
   <o:Created>2015-11-26T14:31:00Z</o:Created>
-  <o:LastSaved>2015-11-27T09:35:00Z</o:LastSaved>
+  <o:LastSaved>2015-11-27T09:24:00Z</o:LastSaved>
   <o:Pages>2</o:Pages>
-  <o:Words>230</o:Words>
-  <o:Characters>1311</o:Characters>
+  <o:Words>251</o:Words>
+  <o:Characters>1434</o:Characters>
   <o:Company>IT Tralee</o:Company>
-  <o:Lines>10</o:Lines>
+  <o:Lines>11</o:Lines>
   <o:Paragraphs>3</o:Paragraphs>
-  <o:CharactersWithSpaces>1538</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>1682</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1142,7 +1142,7 @@ line-height:106%;color:black;mso-themecolor:text1'><o:p></o:p></span></b></h2>
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>N/A</span></p>
+  normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:6'>
@@ -1222,10 +1222,6 @@ line-height:106%;color:black;mso-themecolor:text1'><o:p></o:p></span></b></h2>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></b></p>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></b></p>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US>Step 3:<o:p></o:p></span></b></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><span lang=EN-US>The School Office Administrator enters the required
@@ -1247,7 +1243,13 @@ line-height:106%;color:black;mso-themecolor:text1'><o:p></o:p></span></b></h2>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US>Step 7:<o:p></o:p></span></b></p>
+  normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US>Step 8:<o:p></o:p></span></b></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><span lang=EN-US>The Admin can now view all the classes in the school
   and can either edit the class they just created or finish with creating the
@@ -1271,22 +1273,54 @@ line-height:106%;color:black;mso-themecolor:text1'><o:p></o:p></span></b></h2>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><span lang=EN-US>The System validates the data</span></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Entered by the school Office Administrator</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+  normal'><span lang=EN-US>Such as:</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:38.25pt;margin-bottom:.0001pt;mso-add-space:
+  auto;text-indent:-18.0pt;line-height:normal;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+  lang=EN-US style='font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  lang=EN-US>All fields required</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:38.25pt;margin-bottom:.0001pt;mso-add-space:
+  auto;text-indent:-18.0pt;line-height:normal;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+  lang=EN-US style='font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  lang=EN-US>SchoolID must exist</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:38.25pt;margin-bottom:.0001pt;mso-add-space:
+  auto;text-indent:-18.0pt;line-height:normal;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+  lang=EN-US style='font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  lang=EN-US>The year must be between 1<sup>st</sup> year and 6<sup>th</sup>
+  year</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:38.25pt;margin-bottom:.0001pt;mso-add-space:
+  auto;text-indent:-18.0pt;line-height:normal;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+  lang=EN-US style='font-family:Symbol;mso-fareast-font-family:Symbol;
+  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  lang=EN-US>The class must not already exist</span></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US>Step 5:<o:p></o:p></span></b></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>The System displays a confirmation message that a
-  new class group has been created.</span></p>
+  normal'><span lang=EN-US>The System updates the Class file with the new Class
+  details and displays a confirmation message</span></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US>Step 6:<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>An empty Class now exists in a school and is ready
+  for Students to be assigned to it.<span style='mso-spacerun:yes'>  </span></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US><o:p>&nbsp;</o:p></span></b></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US>Step 6:<o:p></o:p></span></b></p>
+  normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US>Step 7:<o:p></o:p></span></b></p>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><span lang=EN-US>The System displays a list of all the Classes in the
   specified school. </span></p>
@@ -1393,7 +1427,8 @@ line-height:106%;color:black;mso-themecolor:text1'><o:p></o:p></span></b></h2>
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   normal'><span lang=EN-US style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
-  minor-latin'>A new Class Group is created<o:p></o:p></span></p>
+  minor-latin'>A new Class<span style='mso-spacerun:yes'>  </span>is added to
+  the Class folder<o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:14'>
@@ -1407,10 +1442,7 @@ line-height:106%;color:black;mso-themecolor:text1'><o:p></o:p></span></b></h2>
   <td width=690 colspan=3 valign=top style='width:345.2pt;border-top:none;
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US>System logs new created class group and
-  adds it to the system</span></p>
-  </td>
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'></td>
  </tr>
  <tr style='mso-yfti-irow:15'>
   <td width=266 valign=top style='width:133.0pt;border:solid windowtext 1.0pt;
