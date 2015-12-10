@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -5,17 +6,32 @@ import java.util.List;
  */
 public class School {
     private String schoolName;
-    private java.util.List classGroupings;
+    private List <ClassGrouping> classGroupings;
     private NoticeBoard noticeBoard;
 
+
+    public School(String schoolName)
+    {
+        this.schoolName = schoolName;
+        this.classGroupings = new ArrayList<>();
+        this.noticeBoard = noticeBoard;
+    }
+
     public void addClassGrouping(ClassGrouping classGroup) {
+        this.classGroupings.add(classGroup);
     }
 
     public List getClassGroupings() {
-        return null;
+
+        return classGroupings;
     }
 
     public NoticeBoard getNoticeBoard() {
-        return null;
+        return noticeBoard;
+    }
+
+    public void getAllMessages()
+    {
+        noticeBoard.printMessages();
     }
 }

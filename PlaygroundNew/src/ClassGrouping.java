@@ -1,4 +1,4 @@
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by t00166011 on 10/12/2015.
@@ -6,12 +6,32 @@ import java.util.List;
 public class ClassGrouping {
     private String classGroupName;
     private School school;
-    private java.util.List students;
+    private  List students;
+    private NoticeBoard noticeBoard;
+
+    public ClassGrouping(String classGroupName, School school) {
+        this.classGroupName = classGroupName;
+        this.school = school;
+        this.students = new ArrayList<>();
+    }
 
     public List getStudents() {
-        return null;
+        return students;
     }
 
     public void addStudent(Student student) {
+
     }
+
+    public School getSchool() {
+        return school;
+    }
+
+
+
+    public NoticeBoard getNoticeBoard()
+    {
+        return noticeBoard;
+    }
+
 }
