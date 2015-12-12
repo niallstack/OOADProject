@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by t00166011 on 10/12/2015.
@@ -9,6 +11,7 @@ public class Student {
     private String surname;
     private Date dob;
     private ClassGrouping classGrouping;
+    private List<Friendship> friends;
 
 
 
@@ -18,6 +21,7 @@ public class Student {
         this.studentID = studentID;
         this.dob = dob;
         this.classGrouping = classgroup;
+        this.friends= new ArrayList<>();
     }
 
     public Message postSchoolMessage(String textMessage) {
@@ -28,6 +32,18 @@ public class Student {
 
     public void like(Message message) {
         message.like();
+    }
+
+    public void addnewFriend(Student friend){
+        this.friends.add(new Friendship(this,friend));
+    }
+    public void sendPrivateMessage(Student friend, Message message){
+        for(Friendship f : friends){
+            if(f.getStudentB().equals(friend)|| f.getStudentA().equals(friend)){
+                f.addMessage(message);
+                break;
+            }
+        }
     }
 
 
@@ -52,6 +68,11 @@ public class Student {
         return classGrouping;
     }
 
+    public List<Friendship> getFriends() {
+        return friends;
+    }
+
+
 
     //Setters
 
@@ -73,5 +94,8 @@ public class Student {
 
     public void setClassGroupsing(ClassGrouping classGrouping) {
         this.classGrouping = classGrouping;
+    }
+    public void setFriends(List<Friendship> friends) {
+        this.friends = friends;
     }
 }
