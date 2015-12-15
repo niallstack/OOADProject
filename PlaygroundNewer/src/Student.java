@@ -26,7 +26,7 @@ public class Student {
 
     public Message postSchoolMessage(String textMessage) {
         Message mes = new Message(textMessage, this);
-        this.classGrouping.getNoticeBoard().addMessage(mes);
+        this.classGrouping.getSchool().addMessage(mes);
         return mes;
     }
 

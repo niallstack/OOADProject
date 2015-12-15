@@ -5,6 +5,8 @@ import java.util.List;
  * Created by t00166011 on 10/12/2015.
  */
 public class School {
+
+
     private String schoolName;
     private List <ClassGrouping> classGroupings;
     private NoticeBoard noticeBoard;
@@ -14,7 +16,11 @@ public class School {
     {
         this.schoolName = schoolName;
         this.classGroupings = new ArrayList<>();
-        this.noticeBoard = noticeBoard;
+        this.noticeBoard = new NoticeBoard();
+    }
+
+    public void addMessage(Message message){
+        this.noticeBoard.addMessage(message);
     }
 
     public void addClassGrouping(ClassGrouping classGroup) {
@@ -22,14 +28,14 @@ public class School {
         this.classGroupings.add(classGroup);
     }
 
-    public List getClassGroupings() {
-
-        return classGroupings;
+    public String getSchoolName() {
+        return schoolName;
     }
 
-    public NoticeBoard getNoticeBoard() {
-        return noticeBoard;
+    public void setSchoolName(String schoolName) {
+        this.schoolName = schoolName;
     }
+
 
     public void getAllMessages()
     {
