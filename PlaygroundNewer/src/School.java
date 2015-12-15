@@ -37,8 +37,12 @@ public class School {
     }
 
 
-    public void getAllMessages()
+    public void printAllMessages(String color)
     {
-        noticeBoard.printMessages();
+        noticeBoard.printMessages(color);
+    }
+
+    public List<Message> getAllMessages(){
+        return this.noticeBoard.getMessages();
     }
 }

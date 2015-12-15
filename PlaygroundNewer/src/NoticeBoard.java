@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -15,15 +16,23 @@ public class NoticeBoard {
 
     public void addMessage(Message message) {
         this.messages.add(message);
+
     }
 
-    public void printMessages() {
+    public void printMessages(String color) {
+        Collections.sort(messages, new Comparator<Message>(){
+            public int compare(Message m1,Message m2){
+                return   m2.getLikeCounter()-m1.getLikeCounter();
+            }});
+
         for (Message m : messages) {
-            System.out.println(m.getTextMessage());
+           m.showMessage(color);
         }
     }
-    public void printMostRecentMessages(){
-        Collections.reverse(messages);
+
+
+    public List<Message> getMessages() {
+        return messages;
     }
 
 }

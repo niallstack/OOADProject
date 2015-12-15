@@ -49,10 +49,10 @@ public class Student {
             }
         }
     }
-    public void showprivateMessage(Student friend){
+    public void showPrivateMessage(Student friend){
         for(Friendship f : friends){
             if(f.getStudentB().equals(friend)|| f.getStudentA().equals(friend)){
-                f.getPrivateMessages().printMessages();
+                f.getPrivateMessages().printMessages("\u001B[33m");
                 break;
             }
         }

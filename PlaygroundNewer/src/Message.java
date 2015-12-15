@@ -45,5 +45,9 @@ public class Message {
         this.author = author;
     }
 
+    public void showMessage(String color){
+        System.out.println( color + this.author.getForename()+" : "+ this.getTextMessage()+", likes : "+this.getLikeCounter() +"\u001B[0m");
+    }
+
 
 }

@@ -6,7 +6,7 @@ import java.util.*;
 public class ClassGrouping {
     private String classGroupName;
     private School school;
-    private  List students;
+    private  List<Student> students;
     private NoticeBoard noticeBoard;
 
     public ClassGrouping(String classGroupName, School school) {
