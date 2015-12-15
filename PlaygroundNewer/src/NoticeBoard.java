@@ -18,9 +18,7 @@ public class NoticeBoard {
     }
 
     public void printMessages() {
-        for (Message m : messages) {
-            System.out.println(m);
-        }
+        messages.forEach(System.out::println);
     }
     public void printMostRecentMessages(){
         Collections.reverse(messages);

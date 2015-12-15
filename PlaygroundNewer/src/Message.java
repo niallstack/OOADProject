@@ -2,7 +2,7 @@
  * Created by t00166011 on 10/12/2015.
  */
 
-import java.util.*;
+
 
 public class Message {
     private String textMessage;

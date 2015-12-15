@@ -49,6 +49,14 @@ public class Student {
             }
         }
     }
+    public void showprivateMessage(Student friend){
+        for(Friendship f : friends){
+            if(f.getStudentB().equals(friend)|| f.getStudentA().equals(friend)){
+                f.getPrivateMessages().printMessages();
+                break;
+            }
+        }
+    };
 
 
     //Getters
@@ -68,7 +76,7 @@ public class Student {
         return dob;
     }
 
-    public ClassGrouping getClassGroupsing() {
+    public ClassGrouping getClassGrouping() {
         return classGrouping;
     }
 

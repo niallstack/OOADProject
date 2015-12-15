@@ -18,17 +18,20 @@ public class PlaygroundMain {
 
         //uc3 post school message
         student1.postSchoolMessage("Hello everyone !");
+        student1.getClassGrouping().getSchool().getNoticeBoard().printMessages();
 
         //uc4 send private message
         Student student2 = new Student(2,"Niall","Stack",new Date(),class1);
         student1.addnewFriend(student2);
         student1.sendPrivateMessage(student2,"hello");
+        student1.showprivateMessage(student2);
 
         //uc5
 
 
         //uc6
-
+        student1.setForename("Thomas");
+        student1.setSurname("Rivière");
 
     }
 }
