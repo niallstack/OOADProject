@@ -18,6 +18,7 @@ public class School {
     }
 
     public void addClassGrouping(ClassGrouping classGroup) {
+
         this.classGroupings.add(classGroup);
     }
 

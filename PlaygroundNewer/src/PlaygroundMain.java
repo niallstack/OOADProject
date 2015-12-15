@@ -7,14 +7,28 @@ public class PlaygroundMain {
     public static void main(String[] args)
     {
         School mySchool=new School("itt");
-        ClassGrouping year1 = new ClassGrouping("Year 1",mySchool);
-        NoticeBoard n = new NoticeBoard();
 
-        Student student = new Student(01,"Quentin","marechal",new Date(),year1);
-        Message mes = student.postSchoolMessage("hello");
-        student.like(mes);
+        //UC1 Create Class Grouping
+        ClassGrouping class1 = new ClassGrouping("Year 1",mySchool);
+        mySchool.addClassGrouping(class1);
+
+        //uc2 Assign student
+        Student student1 = new Student(1,"Quentin","MARECHAL",new Date(),class1);
+        class1.addStudent(student1);
+
+        //uc3 post school message
+        student1.postSchoolMessage("Hello everyone !");
+
+        //uc4 send private message
+        Student student2 = new Student(2,"Niall","Stack",new Date(),class1);
+        student1.addnewFriend(student2);
+        student1.sendPrivateMessage(student2,"hello");
+
+        //uc5
 
 
-        n.printMessages();
+        //uc6
+
+
     }
 }

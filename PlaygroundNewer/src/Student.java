@@ -35,12 +35,16 @@ public class Student {
     }
 
     public void addnewFriend(Student friend){
-        this.friends.add(new Friendship(this,friend));
+        Friendship f=new Friendship(this,friend);
+        this.friends.add(f);
+        friend.getFriends().add(f);
+
     }
-    public void sendPrivateMessage(Student friend, Message message){
+
+    public void sendPrivateMessage(Student friend, String message){
         for(Friendship f : friends){
             if(f.getStudentB().equals(friend)|| f.getStudentA().equals(friend)){
-                f.addMessage(message);
+                f.addMessage(new Message(message,this));
                 break;
             }
         }
