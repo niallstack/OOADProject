@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -17,8 +18,12 @@ public class NoticeBoard {
     }
 
     public void printMessages() {
-        for(Message m : messages){
+        for (Message m : messages) {
             System.out.println(m);
         }
     }
+    public void printMostRecentMessages(){
+        Collections.reverse(messages);
+    }
+
 }
